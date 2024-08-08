@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/glightbox.min.css">
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Paint Me</title>
 </head>
@@ -29,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link active" href="#home">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
                     <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <!-- <li class="nav-item"><a class="nav-link" href="#team">Team</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                 </ul>
             </div>
@@ -41,12 +43,107 @@
         <div class="container mt-auto mb-auto">
             <div class="hero-subheading">Welcome To Our Studio!</div>
             <div class="hero-heading text-uppercase mb-4 fw-bold">It's Nice To Meet You</div>
-            <a class="btn btn-primary btn-xl text-uppercase" href="#home">Tell Me More</a>
+            <a class="btn btn-primary btn-xl text-uppercase" href="#about">Tell Me More</a>
         </div>
     </header>
 
-    <!--------------- ************************* SERVICES *************************** --------------->
+    <!-- ------------- ************************* SERVICES *************************** --------------->
     <section class="page-section" id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2 class="section-heading text-uppercase">Our Services</h2>
+                <h3 class="section-subheading text-muted">Transforming spaces with quality and care.</h3>
+            </div>
+            <div class="row text-center">
+                <!-- Residential Painting -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-home fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Residential Painting</h4>
+                    <p class="text-muted">From cozy interiors to striking exteriors, we handle every aspect of
+                        residential painting, including custom finishes and cabinet refinishing.</p>
+                </div>
+                <!-- Commercial Painting -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-building fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Commercial Painting</h4>
+                    <p class="text-muted">Expert painting for offices, retail spaces, and industrial environments. We
+                        ensure minimal disruption to your business operations.</p>
+                </div>
+                <!-- Specialty Services -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-paint-brush fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Specialty Services</h4>
+                    <p class="text-muted">Offering custom solutions like wallpaper installation, epoxy flooring, and
+                        decorative finishes to meet your unique needs.</p>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <!-- Preparation and Repair -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-tools fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Preparation and Repair</h4>
+                    <p class="text-muted">Comprehensive surface preparation, drywall repair, and caulking to ensure a
+                        flawless finish that lasts.</p>
+                </div>
+                <!-- Consultation and Design -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-palette fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Consultation and Design</h4>
+                    <p class="text-muted">Guidance on color choices and design options to help you achieve the look you
+                        envision for your space.</p>
+                </div>
+                <!-- Maintenance Services -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Maintenance Services</h4>
+                    <p class="text-muted">Regular maintenance and touch-ups to keep your painted surfaces looking fresh
+                        and vibrant.</p>
+                </div>
+            </div>
+            <div class="row text-center mt-4">
+                <!-- Eco-Friendly Options -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-leaf fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Eco-Friendly Options</h4>
+                    <p class="text-muted">Sustainable practices and low-VOC paints for an environmentally friendly
+                        approach to painting.</p>
+                </div>
+                <!-- Free Estimates and Quotes -->
+                <div class="col-md-4">
+                    <span class="fa-stack fa-4x">
+                        <i class="fas fa-circle fa-stack-2x text-primary"></i>
+                        <i class="fas fa-calculator fa-stack-1x fa-inverse"></i>
+                    </span>
+                    <h4 class="my-3">Free Estimates and Quotes</h4>
+                    <p class="text-muted">Get accurate quotes and detailed estimates with no obligation. We provide
+                        transparent pricing for every project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="page-section" id="services">
         <div class="container">
             <div class="text-center">
                 <h2 class="section-heading text-uppercase">Services</h2>
@@ -58,7 +155,7 @@
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">E-Commerce</h4>
+                    <h4 class="my-3">Residential Painting</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
@@ -67,7 +164,7 @@
                         <i class="fas fa-circle fa-stack-2x text-primary"></i>
                         <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
                     </span>
-                    <h4 class="my-3">Responsive Design</h4>
+                    <h4 class="my-3">Commercial Painting</h4>
                     <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam
                         architecto quo inventore harum ex magni, dicta impedit.</p>
                 </div>
@@ -82,10 +179,72 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <!--------------- ************************* ABOUT *************************** --------------->
-    <section class="container-fluid about py-5" id="about">
+    <section class="container-fluid about" id="about">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
+                    <div class="about-img rounded h-100">
+                        <img src="./assets/img/photo-grunge-graffiti-city-wall.jpg"
+                            class="img-fluid rounded h-100 w-100" style="object-fit: cover;" alt="Painter at work">
+                        <div class="about-exp"><span>20 Years of Experience</span></div>
+                    </div>
+                </div>
+                <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.2s">
+                    <div class="about-item">
+                        <h4 class="text-primary text-uppercase">About Us</h4>
+                        <h1 class="display-3 mb-3">Transforming Spaces with Expertise and Precision</h1>
+                        <p class="mb-4">With over two decades of experience, our team is dedicated to delivering
+                            exceptional painting services. We use top-quality paints and techniques to enhance the
+                            beauty and durability of your home or business.</p>
+                        <div class="bg-light rounded p-4 mb-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="pe-4">
+                                            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center"
+                                                style="width: 80px; height: 80px;"><i
+                                                    class="fas fa-paint-roller text-white fa-2x"></i></div>
+                                        </div>
+                                        <div class="">
+                                            <p href="#" class="h4 d-inline-block mb-3">Happy Clients</p>
+                                            <p class="mb-0">We take pride in our satisfied customers. Our attention to
+                                                detail and commitment to quality ensures every project exceeds
+                                                expectations.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="bg-light rounded p-4 mb-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="d-flex">
+                                        <div class="pe-4">
+                                            <div class="rounded-circle bg-primary d-flex align-items-center justify-content-center"
+                                                style="width: 80px; height: 80px;"><i
+                                                    class="fas fa-brush text-white fa-2x"></i></div>
+                                        </div>
+                                        <div class="">
+                                            <p href="#" class="h4 d-inline-block mb-3">Premium Quality Products</p>
+                                            <p class="mb-0">We use only the finest paints and materials to ensure a
+                                                flawless finish and long-lasting results.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- <a href="#" class="btn btn-secondary rounded-pill py-3 px-5">Learn More</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- <section class="container-fluid about" id="about">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.2s">
@@ -144,6 +303,245 @@
                 </div>
             </div>
         </div>
+    </section> -->
+
+    <!--------------- ************************* PORTFOLIO *************************** --------------->
+    <section id="portfolio" class="portfolio section">
+
+        <div class="container section-title" data-aos="fade-up">
+            <h2>Portfolio</h2>
+            <p>Explore our portfolio to see how we transform spaces with vibrant colors and meticulous craftsmanship.
+            </p>
+        </div>
+        <div class="container">
+
+            <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+
+                <!-- <ul class="portfolio-filters isotope-filters" data-aos="fade-up" data-aos-delay="100">
+                    <li data-filter="*" class="filter-active">All</li>
+                    <li data-filter=".filter-app">App</li>
+                    <li data-filter=".filter-product">Product</li>
+                    <li data-filter=".filter-branding">Branding</li>
+                    <li data-filter=".filter-books">Books</li>
+                </ul> -->
+
+                <div class="row gy-4 isotope-container" data-aos="fade-up" data-aos-delay="200">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo1.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo1.jpg"
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo2.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo2.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo4.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo4.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo3.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo3.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo6.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo6.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-product">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo7.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo7.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-branding">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo8.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo8.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-books">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo9.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo9.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item isotope-item filter-app">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo10.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo10.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-product">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo5.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo5.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-md-6 portfolio-item isotope-item filter-branding">
+                        <div class="portfolio-content h-100">
+                            <img src="assets/img/portfolio/photo11.jpg" alt="">
+                            <div class="portfolio-info">
+                                <a href="assets/img/portfolio/photo11.jpg" 
+                                    data-gallery="portfolio-gallery-app" class="glightbox preview-link"><svg
+                                        xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor"
+                                        class="bi bi-zoom-in" viewBox="0 0 16 16">
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 12a5.5 5.5 0 1 0 0-11 5.5 5.5 0 0 0 0 11M13 6.5a6.5 6.5 0 1 1-13 0 6.5 6.5 0 0 1 13 0" />
+                                        <path
+                                            d="M10.344 11.742q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1 6.5 6.5 0 0 1-1.398 1.4z" />
+                                        <path fill-rule="evenodd"
+                                            d="M6.5 3a.5.5 0 0 1 .5.5V6h2.5a.5.5 0 0 1 0 1H7v2.5a.5.5 0 0 1-1 0V7H3.5a.5.5 0 0 1 0-1H6V3.5a.5.5 0 0 1 .5-.5" />
+                                    </svg></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
     </section>
 
     <!--------------- ************************* FOOTER CONTACT *************************** --------------->
@@ -175,7 +573,8 @@
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <div class="footer-item">
-                            <h3 class="text-white mb-4"><i class="fas fa-hand-holding-water text-primary me-3"></i>Acuas
+                            <h3 class="text-white mb-4"><i
+                                    class="fas fa-hand-holding-water text-primary me-3"></i>PaintMe
                             </h3>
                             <p class="mb-3">Dolor amet sit justo amet elitr clita ipsum elitr est.Lorem ipsum dolor sit
                                 amet, consectetur adipiscing elit consectetur adipiscing elit.</p>
@@ -239,8 +638,7 @@
                         reserved.</span>
                 </div>
                 <div class="col-md-6 text-center text-md-end text-body">
-                    <p>Designed By <a class="text-white"
-                            href=""">Synergy Corp</a> Distributed By <a class="text-white"
+                    <p>Designed By <a class="text-white" href=""">Synergy Corp</a> Distributed By <a class=" text-white"
                             href="">Synergy Industries</a></p>
                 </div>
             </div>
@@ -252,6 +650,9 @@
 
     <script src="https://unpkg.com/@popperjs/core@2/dist/umd/popper.js"></script>
     <script src="./assets/bootstrap-5.3.3-dist/js/bootstrap.min.js"></script>
+    <script src="./assets/js/glightbox.min.js"></script>
+    <script src="./assets/js/isotope.pkgd.min.js"></script>
+    <script src="./assets/js/swiper-bundle.min.js"></script>
     <script src="./assets/js/main.js"></script>
 </body>
 
