@@ -95,13 +95,8 @@
 .hero {
     /* width: 100vw;
     height: 100vh; */
-<<<<<<< Updated upstream
-    /* background: #250b0b url('../img/Graffiti-background.jpg') no-repeat center/cover scroll; */
-    background: #250b0b url('../img/bg.jpg') no-repeat center/cover scroll;
-=======
     background: #250b0b url('../img/portfolio/photo20.jpg') no-repeat center/cover scroll;
     color: #000000;
->>>>>>> Stashed changes
 }
 
 header.hero .hero-subheading {
