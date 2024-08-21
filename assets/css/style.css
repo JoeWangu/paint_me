@@ -97,21 +97,32 @@
     height: 100vh; */
     background: #250b0b url('../img/portfolio/photo20.jpg') no-repeat center/cover scroll;
     color: #000000;
+    position: relative;
+    z-index: 0;
+}
+
+.hero .container{
+    /* background: #7c7c7c38; */
+    z-index: 2;
+}
+.hero .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #3b3b3b5d;
+    z-index: 1;
 }
 
 header.hero .hero-subheading {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-style: italic;
     line-height: 1.5rem;
     font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 header.hero .hero-heading {
-    font-size: 3.5rem;
-    /* font-weight: 700; */
-    line-height: 3.25rem;
-    /* margin-bottom: 2rem; */
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 2.5rem;
+    line-height: 3rem;
 }
 
 @media (max-width: 768px) {
